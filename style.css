@@ -1,11 +1,33 @@
 body {
     color: black;
     opacity: 2;
-    background-color: silver;
+    background-color: lightsteelblue;
 }
 .jumbotron {
     background-image: url("bellybutton.jpg");
-    background-size: 100%;
+    background-size: 100% 100%;
     text-align: center;
-    opacity: .7;
+    opacity: .9;
+}
+.center {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#bubble {
+    position: absolute;
+    width: 100%;
+    outline: 4px solid #337AB7;
+}
+#bar {
+    margin: auto;
+    width: 100%;
+    outline: 4px solid #337AB7;
+}
+#gauge {
+    margin: auto;
+    width: 100%;
+    outline: 4px solid #337AB7;
 }
