@@ -28,6 +28,5 @@ body {
 }
 #gauge {
     margin: auto;
-    width: 100%;
     outline: 4px solid #337AB7;
 }
