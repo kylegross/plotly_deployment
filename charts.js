@@ -135,12 +135,12 @@ function buildCharts(sample) {
           {range: [6,8], color: "limegreen"},
           {range: [8,10], color: "darkgreen"}
         ],
-      margin: true
       }
     }];
     // Create the layout for the gauge chart.
     var gaugeLayout = {
       title: "<b>Belly Washing Frequency</b><br>Scrubs per Week",
+      margin: true
     };
     // Use Plotly to plot the data with the layout.
     Plotly.newPlot("gauge", gaugeData, gaugeLayout);
