@@ -1,0 +1,11 @@
+body {
+    color: black;
+    opacity: 2;
+    background-color: silver;
+}
+.jumbotron {
+    background-image: url("bellybutton.jpg");
+    background-size: 100%;
+    text-align: center;
+    opacity: .7;
+}
